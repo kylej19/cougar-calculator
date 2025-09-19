@@ -1,4 +1,12 @@
+# Ignore CLion project files
 .idea/
-cmake-build-debug/
+
+# Ignore CMake build directories
+cmake-build-*/
+
+# Ignore CMake intermediate files
 CMakeFiles/
-*.txt
+
+# Ignore generic text files (if you don’t want *.txt tracked)
+other_test.txt
+test.txt
